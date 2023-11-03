@@ -1,0 +1,1 @@
+const readmoreBtn=document.queryselector(",.read-more-btn");

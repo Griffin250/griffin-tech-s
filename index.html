@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/969f6c4469.js" crossorigin="anonymous"></script>
+    <title>Griffin Tech-S</title>
+    <link rel="website icon" type="png" href="Images/Website-logo.jpg">
+</head>
+<style>
+    *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    body{
+        background-image: url(Images/Background-image.jpg);
+        backdrop-filter: blur(2px);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    /*..........................................Navbar...................................*/
+    .navbar{
+        padding: 10px 5%;
+    }
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+nav b i{
+    font-size: 40px;
+    color: white;
+    margin-left: -45px;
+    margin-right: 20px;
+    rotate: 90deg;
+}
+nav b{
+    font-size: 50px;
+    font-weight: 800;
+    color: aqua;
+    padding-right: 0px;
+    cursor: pointer;
+}
+
+
+.navbar ul li{
+font-weight: bold;
+display: inline-block;
+margin-left:15px;
+list-style: none;
+font-size: 20px;
+color: white;
+box-shadow: 0px 0px 2px aqua;
+padding: 10px 8px;
+height: 50px;
+background: transparent;
+border-radius: 8px;
+}
+.navbar ul :hover{
+    opacity: 0.7;
+    color: aqua;
+    transition: 0.5s;
+}
+.navbar ul button{
+    width: 140px;
+    height: 50px;
+    color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 6px;
+    background:transparent;
+}
+.navbar ul button:active{
+    border: solid grey 2px;
+    transition: 0.2s;
+    opacity: 0.2;
+}
+.navbar ul button:hover{
+    color: white;
+}
+ /*..........................................HeaderText...................................*/
+ .headertext{
+    margin: 0px 50px;
+ }
+ .headertext h1{
+    margin-left: 350px;
+
+ }
+.headertext ul li{
+    padding-top: 10px;
+    font-size: 16px;
+    list-style: none;
+}
+
+/*.......................................................Login section............................*/
+.wrapper{
+background:black;
+width: 420px;
+height: 400px;
+color: white;
+margin-top: 50px;
+border: 2px solid rgb(14, 224, 224);
+box-shadow: 0px 0px 6px aqua ;
+border-radius: 15px;
+padding: 10px;
+backdrop-filter: blur(20px);
+margin-left: 1000px;
+}
+.wrapper .inputbox{
+height: 50%;
+width: 100%;
+border-radius: 15px;
+}
+.inputbox input{
+width: 75%;
+height: 25px;
+border: solid 2px;
+border-radius: 10px;
+outline-color: white;
+border-color: whitesmoke;
+background: transparent;
+color: white;
+
+}
+.inputbox input ::placeholder{
+color: rgb(255, 255, 255);
+}
+.login{
+border-radius: 5px;
+border-color: white;
+width: 50%;
+height: 25px;
+cursor: pointer;
+align-items: center;
+font-size: 15px;
+
+}
+.login :hover{
+color: rgb(24, 222, 222);
+}
+.Link{
+color:aqua;
+justify-content: space-between;
+margin-right: 50px;
+text-decoration: none;
+font-size: 16px;
+}
+.Link :hover{
+color:white;
+text-decoration: underline aqua solid;
+}
+.facebook{
+border-radius: 5px;
+border-color: white;
+width: 48%;
+height: 30px;
+cursor: pointer;
+align-items: center;
+font-size: 17px;
+background-color:rgb(30, 48, 80);
+color: white;
+}
+.twitter{
+border-radius: 5px;
+border-color: white;
+width: 45%;
+height: 30px;
+cursor: pointer;
+align-items: center;
+font-size: 17px;
+background-color:rgb(30, 48, 80);
+color: white;
+}
+/*...............................................About GTS section............................*/
+.about{
+    margin: 10px 40px;
+}
+.about p{
+    padding: 6px;
+    font-size: 18px;
+}
+
+/*--------------------------------------------------------Footer-section.....................*/
+.copyright{
+    background: grey;
+    height: 50px;
+    width: 100%;
+    margin-top:30px;
+    position: absolute;
+}
+.copyright p{
+    font-weight: bold;
+    padding-top: 12px;
+    margin-left: 100px;
+    color: white;
+}
+.copyright .rights{
+    margin-left: 200px; ;
+}
+.copyright span {
+    margin-left: 150px;
+    margin-right: 80px;
+    font-size: 20px;
+}
+.copyright span i{
+    padding-right: 5px; 
+}
+.copyright .fa-brands{
+    color: white;
+}
+.copyright .fa-brands:hover{
+    color: aqua;
+}
+</style>
+<body>
+   <!--------------------------------------------------------Navbar------------------------->
+    <div id="header" class="navbar">
+        <nav>
+            <b> <i class="fa-solid fa-code-compare"> </i>GRIFFIN TECH-S </b>
+            
+            <ul>
+                <a href="Hackers.html"><li>HACKERS</li></a>
+                <a href="DS.html"><li>DATA SCIENCE</li></a>
+                <a href="#"><li>CYBER-SECURTY</li></a>
+                <a href="#"><li>RESOURCES</li></a>
+                <a href="#about"><button>LOGIN</button></a>
+                <a href="signup.html"><button>REGISTER</button></a>
+            </ul>
+        </nav>
+    </div>
+        
+<!----------------------------------------------------HeaderText-------------------------------------->
+<div class="headertext">
+<h1>Welcome to Griffin Tech Solutions</h1>
+<ul>
+    <li>Welcome to Griffin Tech-S, your gateway to the latest in technology innovation and solutions.</li> 
+    <li> We're here to explore the ever-evolving tech landscape, from cutting-edge gadgets and software to industry trends. </li> 
+    <li>Join us on this journey to stay informed, inspired, and connected in the world of technology."</li>
+    <li>At Griffin Tech-S, we understand that technology is not just about devices and code; it's about the impact it has on our daily lives. </li>
+    <li>From the way we work and communicate to how we entertain ourselves, technology is at the heart of it all.</li>
+    <li> We're dedicated to bringing you insightful content that not only informs but also helps you harness the power-<br>
+    of technology for a smarter, more connected future.</li>
+</ul>
+</div>
+<!------------------------------------------------------------------------------------------------------>
+
+<!--------------------------------------------------Login  page------------------------------------------------>
+<center>
+    <div class="wrapper">
+        <h2>Log In</h2><br>
+    
+    <form action="Griffin Tech-S.html" method="get" id="login">
+        <div class="inputbox"> 
+        <input type="text/email" name="name / Email" id="name" placeholder="   Username / E-mail" required >  <i class="fa-solid fa-user fa-beat"></i>
+    </div><br>
+    
+    <div class="inputbox">
+        <input type="password" name="password" id="password" placeholder="   Password" required> <i class="fa-solid fa-lock fa-beat"></i>
+    </div><br>
+    
+    
+    
+    <div class="remember-me">
+        <input type="checkbox" name="Remember me" id="Remember me" required>
+        <label for="Remember me">Remember me: </label>
+    
+        <a class="Link" href="#"><b> Forgot Password / Username?</b> </a>
+    </div><br>
+    
+    <div>
+            <a href="Griffin Tech-S.html"><button class="login" type="submit" value="submit"> <h3><b> Login </h3></b></button></a>
+                <br><br>
+            <p>Don't have an Account?
+            <a class="Link" href="signup.html" target="_self"> <b> Register Here</a></b></p>
+    </div> <br>
+    <p>Log in with your Facebook or Twitter</p><br>
+    <button <a href="#" class="facebook"><i class="fa-brands fa-facebook" style="color: #115cdf;"></i>  Log in with Facebook </button></a>
+    <button <a href="#" class="twitter"><i class="fa-brands fa-twitter" style="color: #0d5de7;"></i>  Log in with Twitter  </button></a>
+
+    </div></form></center>
+    <!---------------------------------------------About GTS section----------------------------------->
+    <div id="about" class="about">
+        <h1> About Griffin Tech Solutions</h1>
+<p>At Griffin Tech-S, our mission is to be your tech companion. </p>
+    <p>We're a team of tech enthusiasts and experts, passionate about sharing insights and knowledge.</p>
+    <p> Our platform is dedicated to offering in-depth reviews, informative articles, and the latest updates in the tech world. </p>
+    <p>Whether you're a tech aficionado or just curious about what's happening in the industry, we're here to empower you with the information you need.</p>
+
+    </div>
+<!---------------------------------------------------Footer section------------------------------------->
+<footer id="footer">
+    <div class="copyright">
+        <p>
+        Copyright <b>©Griffin Tech-S, Inc-2023.</b>
+        <span>
+   <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+   <a href="#"><i class="fa-brands fa-facebook"></i></a>
+   <a href="#"><i class="fa-brands fa-instagram"></i></a>
+   <a href="#"><i class="fa-brands fa-twitter"></i></a>
+   <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+   <a href="#"><i class="fa-brands fa-discord"></i></a>
+   <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
+    </span>
+    <i> @griffintechsolutions.com</i>
+         <b class="rights">All Rights Reserved!</b></p>
+     </div>
+</footer>
+</body>
+</html>
